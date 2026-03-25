@@ -440,10 +440,8 @@ body {
 
 /* ── Footer ── */
 .footer {
-  padding: 40px 0;
-  text-align: center;
+  padding: 56px 0 40px;
   border-top: 1px solid var(--border);
-  margin-top: 0;
 }
 
 .footer-inner {
@@ -452,27 +450,49 @@ body {
   padding: 0 24px;
 }
 
-.footer-contact {
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.footer-col-title {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-light);
+  margin-bottom: 14px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
   font-family: var(--font-sans);
   font-size: 14px;
+  font-weight: 400;
   color: var(--text-secondary);
-  margin-bottom: 6px;
-}
-
-.footer-contact a {
-  color: var(--accent);
   text-decoration: none;
+  transition: color 0.15s;
 }
 
-.footer-contact a:hover {
-  text-decoration: underline;
+.footer-links a:hover {
+  color: var(--text);
 }
 
 .footer-copy {
   font-family: var(--font-sans);
   font-size: 13px;
   color: var(--text-light);
-  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
 }
 
 /* ── App Cards ── */
@@ -890,7 +910,13 @@ body {
     font-size: 16px;
   }
 
-  .footer-contact {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  .footer-links a {
     font-size: 16px;
   }
 

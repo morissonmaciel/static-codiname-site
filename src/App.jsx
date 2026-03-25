@@ -122,17 +122,38 @@ export default function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-inner">
-          <p className="footer-contact">
-            <a href="mailto:contact@codiname.com">contact@codiname.com</a>
-          </p>
-          <p className="footer-contact">
-            <a href="https://www.photogemini.app" target="_blank" rel="noopener noreferrer">
-              www.photogemini.app
-            </a>
-          </p>
-          <p className="footer-contact">
-            <Link to="/me">Sobre o fundador</Link>
-          </p>
+          <div className="footer-grid">
+
+            <div className="footer-col">
+              <p className="footer-col-title">Produtos</p>
+              <ul className="footer-links">
+                <li><Link to="/products">Photo Gemini</Link></li>
+                <li>
+                  <a href="https://www.photogemini.app" target="_blank" rel="noopener noreferrer">
+                    www.photogemini.app
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <p className="footer-col-title">Empresa</p>
+              <ul className="footer-links">
+                <li><Link to="/me">Sobre Mim</Link></li>
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <p className="footer-col-title">Sociais</p>
+              <ul className="footer-links">
+                <li><Link to="/contacts">Contato</Link></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Threads</a></li>
+                <li><a href="#">GitHub</a></li>
+              </ul>
+            </div>
+
+          </div>
           <p className="footer-copy">
             © {new Date().getFullYear()} Codiname · São Paulo, Brasil
           </p>
