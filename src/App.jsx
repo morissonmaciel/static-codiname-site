@@ -128,11 +128,6 @@ export default function App() {
               <p className="footer-col-title">Produtos</p>
               <ul className="footer-links">
                 <li><Link to="/products">Photo Gemini</Link></li>
-                <li>
-                  <a href="https://www.photogemini.app" target="_blank" rel="noopener noreferrer">
-                    www.photogemini.app
-                  </a>
-                </li>
               </ul>
             </div>
 
