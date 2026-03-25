@@ -33,19 +33,29 @@ export default function Products() {
               algoritmo de correspondência flexível e totalmente local — sem enviar dados para
               servidores externos.
             </p>
-            <a
-              href="https://apps.apple.com/us/app/photo-gemini/id6736348808"
-              className="app-store-badge"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Download Photo Gemini on the App Store"
-            >
-              <img
-                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us"
-                alt="Download on the App Store"
-                height="40"
-              />
-            </a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
+              <a
+                href="https://apps.apple.com/us/app/photo-gemini/id6736348808"
+                className="app-store-badge"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Photo Gemini on the App Store"
+              >
+                <img
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us"
+                  alt="Download on the App Store"
+                  height="40"
+                />
+              </a>
+              <a
+                href="https://www.photogemini.app"
+                className="hero-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.photogemini.app
+              </a>
+            </div>
           </div>
         </div>
       </section>

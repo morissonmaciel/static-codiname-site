@@ -8,7 +8,6 @@ import Contacts from './pages/Contacts.jsx'
 
 const navLinks = [
   { to: '/',         label: 'Início' },
-  { to: '/me',       label: 'Sobre Mim' },
   { to: '/products', label: 'Produtos' },
   { to: '/contacts', label: 'Contato' },
 ]
@@ -124,6 +123,14 @@ export default function App() {
         <div className="footer-inner">
           <p className="footer-contact">
             <a href="mailto:contact@codiname.com">contact@codiname.com</a>
+          </p>
+          <p className="footer-contact">
+            <a href="https://www.photogemini.app" target="_blank" rel="noopener noreferrer">
+              www.photogemini.app
+            </a>
+          </p>
+          <p className="footer-contact">
+            <Link to="/me">Sobre o fundador</Link>
           </p>
           <p className="footer-copy">
             © {new Date().getFullYear()} Codiname · São Paulo, Brasil
