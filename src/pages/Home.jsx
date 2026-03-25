@@ -12,17 +12,9 @@ export default function Home() {
           respeito à privacidade do usuário e experiência de uso que importa.
         </p>
         <div className="home-nav-cards">
-          <Link to="/me" className="home-nav-card">
-            <span className="home-nav-card-title">Sobre Mim</span>
-            <span className="home-nav-card-desc">Conheça o desenvolvedor por trás da Codiname</span>
-          </Link>
           <Link to="/products" className="home-nav-card">
             <span className="home-nav-card-title">Produtos</span>
             <span className="home-nav-card-desc">Apps publicados no App Store e Mac App Store</span>
-          </Link>
-          <Link to="/contacts" className="home-nav-card">
-            <span className="home-nav-card-title">Contato</span>
-            <span className="home-nav-card-desc">Entre em contato para projetos ou parcerias</span>
           </Link>
         </div>
       </section>

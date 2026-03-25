@@ -9,7 +9,6 @@ import Contacts from './pages/Contacts.jsx'
 const navLinks = [
   { to: '/',         label: 'Início' },
   { to: '/products', label: 'Produtos' },
-  { to: '/contacts', label: 'Contato' },
 ]
 
 export default function App() {
