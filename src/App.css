@@ -440,7 +440,7 @@ body {
 
 /* ── Footer ── */
 .footer {
-  padding: 56px 0 40px;
+  padding: 40px 0;
   border-top: 1px solid var(--border);
 }
 
@@ -453,8 +453,8 @@ body {
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-bottom: 48px;
+  gap: 24px;
+  margin-bottom: 24px;
 }
 
 .footer-col-title {
@@ -464,14 +464,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: var(--text-light);
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .footer-links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .footer-links a {
@@ -491,8 +491,6 @@ body {
   font-family: var(--font-sans);
   font-size: 13px;
   color: var(--text-light);
-  border-top: 1px solid var(--border);
-  padding-top: 24px;
 }
 
 /* ── App Cards ── */
@@ -912,12 +910,12 @@ body {
 
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
-    margin-bottom: 32px;
+    gap: 20px;
+    margin-bottom: 20px;
   }
 
   .footer-links a {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .footer-copy {
