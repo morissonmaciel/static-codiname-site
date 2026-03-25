@@ -92,6 +92,7 @@ body {
   padding: 6px;
   background: none;
   border: none;
+  color: var(--text);
   cursor: pointer;
   border-radius: 6px;
   transition: background 0.15s;
