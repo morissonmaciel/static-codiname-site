@@ -40,7 +40,9 @@ export default function App() {
       {/* Topbar */}
       <header className="topbar">
         <div className="topbar-inner">
-          <Link to="/" className="topbar-name">Codiname</Link>
+          <Link to="/" className="topbar-name" aria-label="Codiname — página inicial">
+            <img src="/codiname_regular.png" alt="Codiname" style={{ height: '30px', width: 'auto', display: 'block' }} />
+          </Link>
 
           {/* Desktop nav */}
           <nav className="topbar-nav-desktop" aria-label="Navegação principal">
